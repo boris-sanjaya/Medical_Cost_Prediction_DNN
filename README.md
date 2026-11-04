@@ -56,7 +56,6 @@ Aplikasi terbuka di `http://localhost:8501`. Model sudah tersimpan di folder `mo
 
 ## Demo
 - Video demo dan tahapan deployment: <isi link video>
-- Aplikasi online (opsional): <isi link Streamlit, jika ada>
 
 ## Lisensi
 MIT, lihat berkas `LICENSE`.
