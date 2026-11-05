@@ -9,7 +9,7 @@ Proyek UTS Deep Learning (Kelompok 6): memprediksi biaya medis asuransi (`expens
 | Ryan Peace Simbolon | 231111190 | Pengembangan model DNN dan baseline, aplikasi demo, dokumentasi kode |
 | Grace Debora Sitompul | 231111836 | Penulisan laporan (arsitektur dan eksperimen DNN), analisis tabel eksperimen |
 | Saskia Anggi Pratiwi | 231110909 | Pengujian repository dari awal, pembuatan video demo, pengecekan link |
-| Boris Sanjaya Siregar | 231111783 | Penyusunan dan penyatuan laporan teknis |
+| Boris Sanjaya Siregar | 231111783 | Penyusunan dan penyatuan laporan teknis, deployment aplikasi ke Streamlit |
 
 ## Dataset
 - File: `data/medical_insurance.csv` (1.338 baris, 8 kolom)
@@ -55,6 +55,7 @@ streamlit run app/app.py
 Aplikasi terbuka di `http://localhost:8501`. Model sudah tersimpan di folder `models/`, sehingga tidak perlu melatih ulang. Untuk melatih ulang, jalankan `notebooks/medical_cost_dnn.ipynb` dengan **Run All** (hasil dapat berbeda sedikit antar komputer).
 
 ## Demo
+- Aplikasi (sudah di-deploy): https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/
 - Video demo dan tahapan deployment: <isi link video>
 
 ## Lisensi
