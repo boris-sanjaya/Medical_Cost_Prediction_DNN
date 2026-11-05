@@ -55,7 +55,7 @@ streamlit run app/app.py
 Aplikasi terbuka di `http://localhost:8501`. Model sudah tersimpan di folder `models/`, sehingga tidak perlu melatih ulang. Untuk melatih ulang, jalankan `notebooks/medical_cost_dnn.ipynb` dengan **Run All** (hasil dapat berbeda sedikit antar komputer).
 
 ## Demo
-- Aplikasi (sudah di-deploy): https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/
+- Aplikasi (Streamlit Community Cloud): https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/
 - Video demo dan tahapan deployment: <isi link video>
 
 ## Lisensi
