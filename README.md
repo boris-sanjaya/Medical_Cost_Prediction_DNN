@@ -28,7 +28,7 @@ Proyek UTS Deep Learning (Kelompok 6): memprediksi biaya medis asuransi (`expens
 | Model | MAE | RMSE | R² |
 |---|---|---|---|
 | Linear Regression | 3570.21 | 7230.61 | 0.694 |
-| Random Forest | 2082.46 | 4583.14 | 0.877 |
+| Random Forest | 2082.56 | 4583.21 | 0.877 |
 | DNN (terbaik) | 3086.64 | 5938.26 | 0.793 |
 
 DNN mengungguli Linear Regression, tetapi Random Forest memberi error terendah. Pada data tabular berukuran kecil (sekitar 1,3 ribu baris) dengan interaksi antar fitur yang kuat, model berbasis pohon umumnya lebih sesuai daripada DNN. Konfigurasi DNN terbaik pada validation adalah arsitektur sederhana, yang menunjukkan bahwa model yang lebih dalam cenderung overfitting pada dataset sekecil ini.
