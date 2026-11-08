@@ -1,0 +1,23 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+# Editor, OS, and local temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+# Test caches (do not ignore the versioned results/ and models/ folders)
+.coverage
+
+# Optional generated local summary
+results/Ringkasan_Dua_Contoh_Prediksi_Kelompok_6.txt
