@@ -5,7 +5,7 @@ Semester Ganjil, Tahun Akademik 2026/2027
 
 Proyek ini menggunakan *Deep Neural Network* (DNN) untuk memperkirakan biaya medis asuransi berdasarkan karakteristik individu. Model yang dikembangkan dibandingkan dengan Linear Regression dan Random Forest agar hasil DNN dapat dievaluasi terhadap metode regresi lain. Proses pengolahan data, pelatihan, dan evaluasi terdokumentasi di notebook, sedangkan aplikasi Streamlit digunakan untuk mencoba prediksi secara langsung.
 
-**Tautan proyek:** [Aplikasi Streamlit](https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/) | [Video demonstrasi](https://drive.google.com/file/d/17TalNHyt0PP1aYiI1nqoZFQkRoaSFuSp/view?usp=sharing) | [Laporan UTS (PDF)](docs/Laporan_UTS_Pembelajaran_Mendalam_Kelompok_6.pdf) | [Notebook eksperimen](notebooks/medical_cost_dnn.ipynb)
+**Tautan proyek:** [Aplikasi Streamlit](https://medicalcostpredictiondnn-dw5vjytqjeum6nytq8dzr6.streamlit.app/) | [Video demonstrasi](https://drive.google.com/file/d/17TalNHyt0PP1aYiI1nqoZFQkRoaSFuSp/view?usp=sharing) | [Laporan UTS (PDF)](docs/Laporan_UTS_Pembelajaran_Mendalam_Kelompok_6.pdf) | [Notebook eksperimen](notebooks/medical_cost_dnn.ipynb)
 
 ## Anggota kelompok
 
@@ -126,7 +126,7 @@ Performa Random Forest yang tampak lebih baik ketika `premium` disertakan tidak 
 
 ## Aplikasi Streamlit
 
-Aplikasi berada pada [`app/app.py`](app/app.py) dan dapat digunakan melalui [Streamlit Community Cloud](https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/). Formulir menerima usia, BMI, jumlah anak, jenis kelamin, status merokok, dan region. Setelah tombol **Prediksi** ditekan, aplikasi menyiapkan delapan fitur sesuai preprocessor, memanggil model DNN tersimpan, lalu menampilkan hasil dalam skala `expenses`.
+Aplikasi berada pada [`app/app.py`](app/app.py) dan dapat digunakan melalui [Streamlit Community Cloud](https://medicalcostpredictiondnn-dw5vjytqjeum6nytq8dzr6.streamlit.app/). Formulir menerima usia, BMI, jumlah anak, jenis kelamin, status merokok, dan region. Setelah tombol **Prediksi** ditekan, aplikasi menyiapkan delapan fitur sesuai preprocessor, memanggil model DNN tersimpan, lalu menampilkan hasil dalam skala `expenses`.
 
 Alur aplikasi merupakan *inferensi*, sehingga model tidak dilatih ulang setiap kali pengguna menekan tombol. Nilai yang ditampilkan adalah estimasi berdasarkan dataset eksperimen, bukan nilai tagihan medis yang pasti.
 
@@ -204,7 +204,7 @@ Aplikasi dipublikasikan melalui Streamlit Community Cloud dengan repository GitH
 
 Dokumentasi proyek tersedia melalui tautan berikut:
 
-- [Aplikasi prediksi biaya medis](https://medicalcostpredictiondnn-jnbqvke2tgpebqlryh8xgp.streamlit.app/)
+- [Aplikasi prediksi biaya medis](https://medicalcostpredictiondnn-dw5vjytqjeum6nytq8dzr6.streamlit.app/)
 - [Video demonstrasi aplikasi](https://drive.google.com/file/d/17TalNHyt0PP1aYiI1nqoZFQkRoaSFuSp/view?usp=sharing)
 - [Laporan UTS Kelompok 6 (PDF)](docs/Laporan_UTS_Pembelajaran_Mendalam_Kelompok_6.pdf)
 - [Notebook eksperimen DNN](notebooks/medical_cost_dnn.ipynb)
